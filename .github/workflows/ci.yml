@@ -6,14 +6,15 @@ on:
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install Pandoc and TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+          sudo apt-get install -y pandoc texlive-full
 
       - name: Convert Markdown to PDF
         run: |
@@ -24,14 +25,14 @@ jobs:
             mkdir -p "$subdir"
             # Получаем имя файла без расширения
             filename=$(basename "$file" .md)
-            # Конвертируем в PDF
+            echo "Converting $file -> $subdir/$filename.pdf"
             pandoc "$file" -o "$subdir/$filename.pdf" --pdf-engine=xelatex
           done
 
       - name: Upload PDFs
         uses: actions/upload-artifact@v4
         with:
-          name: lecture-pdfs
+          name: lecture-pdfs-${{ github.run_number }}
           path: |
             linear-algebra/*.pdf
             calculus/*.pdf
