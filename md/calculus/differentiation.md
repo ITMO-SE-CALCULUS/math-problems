@@ -4,73 +4,73 @@
 
 Найдите дифференциал функции в точке $x_0$ при $\nabla x = 0,01$.
 
-1.1. $d(2x-5)^3\big|_{{x_{0}}}$
+1.1. $d(2x-5)^3\big\vert_{{x_{0}}}$
 
-1.2. $d(4-x)^2\big|_{x_{0}}$
+1.2. $d(4-x)^2\big\vert_{x_{0}}$
 
-1.3. $d(7x+1)^4\big|_{x_{0}}$
+1.3. $d(7x+1)^4\big\vert_{x_{0}}$
 
-1.4. $d(5-4x)^3\big|_{x_{0}}$
+1.4. $d(5-4x)^3\big\vert_{x_{0}}$
 
-1.5. $d(5^{-2-2x})\big|_{x_{0}}$
+1.5. $d(5^{-2-2x})\big\vert_{x_{0}}$
 
-1.6. $d(3^{4x+1})\big|_{x_{0}}$
+1.6. $d(3^{4x+1})\big\vert_{x_{0}}$
 
-1.7. $d(2^{3-x})\big|_{x_{0}}$
+1.7. $d(2^{3-x})\big\vert_{x_{0}}$
 
-1.8. $d(4^{1+5x})\big|_{x_{0}}$
+1.8. $d(4^{1+5x})\big\vert_{x_{0}}$
 
-1.9. $d \log_{5}(4x-1)\big|_{x_{0}}$
+1.9. $d \log_{5}(4x-1)\big\vert_{x_{0}}$
 
-1.10. $d \log_{4}(2x+3) \big|_{x_{0}}$
+1.10. $d \log_{4}(2x+3) \big\vert_{x_{0}}$
 
-1.11. $d\log_2(2-x)\big|_{x_{0}}$
+1.11. $d\log_2(2-x)\big\vert_{x_{0}}$
 
 1.12. $d \log_{4}(2+5x)\big|x_{0}$
 
-1.13. $d\cos \dfrac{\pi(3-4x)}{4}\bigg|_{x_{0}}$
+1.13. $d\cos \dfrac{\pi(3-4x)}{4}\bigg\vert_{x_{0}}$
 
-1.14. $d \text{tg}\dfrac{\pi(2x+5)}{6} \bigg|_{x_{0}}$
+1.14. $d \text{tg}\dfrac{\pi(2x+5)}{6} \bigg\vert_{x_{0}}$
 
-1.15. $d \text{ctg}\dfrac{\pi(-1-5x)}{3}\bigg|_{x_{0}}$
+1.15. $d \text{ctg}\dfrac{\pi(-1-5x)}{3}\bigg\vert_{x_{0}}$
 
-1.16. $d \sin \dfrac{\pi(2x+4)}{3}\bigg|_{x_{0}}$
+1.16. $d \sin \dfrac{\pi(2x+4)}{3}\bigg\vert_{x_{0}}$
 
-1.17. $d \text{arctg}(2-4x)\big|_{x_{0}}$
+1.17. $d \text{arctg}(2-4x)\big\vert_{x_{0}}$
 
-1.18. $d \arccos(0,5-2x)\big|_{x_{0}}$
+1.18. $d \arccos(0,5-2x)\big\vert_{x_{0}}$
 
-1.19. $d \text{arcctg}(5x+1)\big|_{x_0}$
+1.19. $d \text{arcctg}(5x+1)\big\vert_{x_0}$
 
-1.20. $d \arcsin(3x-0,5)\big|_{x_{0}}$
+1.20. $d \arcsin(3x-0,5)\big\vert_{x_{0}}$
 
 ## Блок 2
 
 Найдите производную функции в точке $x_0=0$.
 
-2.1. $\dfrac{d}{dx} \left( \dfrac{\sqrt{ x+1 }-2x}{2-\sin x} \right)\Bigg|_{x_{0}}$
+2.1. $\dfrac{d}{dx} \left( \dfrac{\sqrt{ x+1 }-2x}{2-\sin x} \right)\Bigg\vert_{x_{0}}$
 
-2.2. $\dfrac{d}{dx} \left( \dfrac{x-\sqrt{ x+4 }}{1+\text{tg} x} \right)\Bigg|_{x_{0}}$
+2.2. $\dfrac{d}{dx} \left( \dfrac{x-\sqrt{ x+4 }}{1+\text{tg} x} \right)\Bigg\vert_{x_{0}}$
 
-2.3. $\dfrac{d}{dx}\left( \dfrac{2x-\sqrt{ x+9 }}{\cos x} \right)\Bigg|_{x_{0}}$
+2.3. $\dfrac{d}{dx}\left( \dfrac{2x-\sqrt{ x+9 }}{\cos x} \right)\Bigg\vert_{x_{0}}$
 
-2.4. $\dfrac{d}{dx} \left( \dfrac{\sqrt{ x+1}+5x}{\cos x -2} \right) \Bigg|_{x_{0}}$
+2.4. $\dfrac{d}{dx} \left( \dfrac{\sqrt{ x+1}+5x}{\cos x -2} \right) \Bigg\vert_{x_{0}}$
 
-2.5. $\dfrac{d}{dx}\left(\ln (x^2+2x+1)\right)\Bigg|_{x_{0}}$
+2.5. $\dfrac{d}{dx}\left(\ln (x^2+2x+1)\right)\Bigg\vert_{x_{0}}$
 
-2.6. $\dfrac{d}{dx}\left( \cos\left( x^2+4x+\frac{\pi}{3} \right) \right)\Big|_{x_{0}}$
+2.6. $\dfrac{d}{dx}\left( \cos\left( x^2+4x+\frac{\pi}{3} \right) \right)\Big\vert_{x_{0}}$
 
-2.7. $\dfrac{d}{dx}\left(\exp(3x^2-4x)\right)\Big|_{x_{0}}$
+2.7. $\dfrac{d}{dx}\left(\exp(3x^2-4x)\right)\Big\vert_{x_{0}}$
 
-2.8. $\dfrac{d}{dx}(\text{tg}(x^2+3x+\pi))\Big|_{x_{0}}$
+2.8. $\dfrac{d}{dx}(\text{tg}(x^2+3x+\pi))\Big\vert_{x_{0}}$
 
-2.9. $\dfrac{d}{dx}((x+1)^{\cos x})\Big|_{x_{0}}$
+2.9. $\dfrac{d}{dx}((x+1)^{\cos x})\Big\vert_{x_{0}}$
 
-2.10. $\dfrac{d}{dx}((1-x)^{\sqrt{ 1-x }})\Big|_{x_{0}}$
+2.10. $\dfrac{d}{dx}((1-x)^{\sqrt{ 1-x }})\Big\vert_{x_{0}}$
 
-2.11. $\frac{d}{dx}\Big((1+x)^{\ln(x+e)}\Big)\bigg|_{x_{0}}$
+2.11. $\frac{d}{dx}\Big((1+x)^{\ln(x+e)}\Big)\bigg\vert_{x_{0}}$
 
-2.12. $\dfrac{d}{dx}\Big((1+x)^{\text{tg}\left(x + \frac{\pi}{4}\right)}\Big)\Bigg|_{x_{0}}$
+2.12. $\dfrac{d}{dx}\Big((1+x)^{\text{tg}\left(x + \frac{\pi}{4}\right)}\Big)\Bigg\vert_{x_{0}}$
 
 ## Блок 3
 
