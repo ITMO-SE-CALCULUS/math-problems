@@ -1,0 +1,41 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'md/**/*.md'
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+
+      - name: Convert Markdown to PDF
+        run: |
+          for file in $(find md -name '*.md'); do
+            # Получаем подпапку после md/
+            subdir=$(dirname "$file" | sed 's|md/||')
+            # Создаём соответствующую папку для PDF
+            mkdir -p "$subdir"
+            # Получаем имя файла без расширения
+            filename=$(basename "$file" .md)
+            # Конвертируем в PDF
+            pandoc "$file" -o "$subdir/$filename.pdf" --pdf-engine=xelatex
+          done
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v3
+        with:
+          name: lecture-pdfs
+          path: |
+            linear-algebra/*.pdf
+            calculus/*.pdf
