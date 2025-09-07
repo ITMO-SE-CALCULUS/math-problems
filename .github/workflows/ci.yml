@@ -1,11 +1,7 @@
 name: Convert Markdown to PDF
 
 on:
-  push:
-    branches:
-      - test-pdf
-    paths:
-      - 'md/**/*.md'
+  workflow_dispatch:   # запуск вручную из GitHub Actions UI
 
 jobs:
   build-pdf:
