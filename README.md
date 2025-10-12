@@ -5,11 +5,13 @@
 ## Содержание
 - Математический анализ
   1) [Предел функции в точке](calculus/limits.pdf)
-  2) [Дифференцирование](calculus/differentiation.pdf)
+  2) [Предел по определению](calculus/limits-by-def.pdf)
+  3) [Дифференцирование](calculus/differentiation.pdf)
 - Линейная алгебра
   1) [Комплексные числа](linear-algebra/complex-numbers.pdf)
-  2) [Матрицы](linear-algebra/matrices.pdf)
-  3) [Матрицы и СЛАУ](linear-algebra/matrices-and-sole.pdf)
+  2) [Лиинейная зависимость](linear-algebra/linear-dependency)
+  3) [Матрицы](linear-algebra/matrices.pdf)
+  4) [Матрицы и СЛАУ](linear-algebra/matrices-and-sole.pdf)
 
 ## Как проходит работа с задачами
 1. Студенты могут самостоятельно решать задачи из списка для подготовки.  
