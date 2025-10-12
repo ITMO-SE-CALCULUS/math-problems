@@ -9,7 +9,7 @@
   3) [Дифференцирование](calculus/differentiation.pdf)
 - Линейная алгебра
   1) [Комплексные числа](linear-algebra/complex-numbers.pdf)
-  2) [Лиинейная зависимость](linear-algebra/linear-dependency)
+  2) [Лиинейная зависимость](linear-algebra/linear-dependency.pdf)
   3) [Матрицы](linear-algebra/matrices.pdf)
   4) [Матрицы и СЛАУ](linear-algebra/matrices-and-sole.pdf)
 
